@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href="">Team</a>
           </li>
           <li>
-            <a href="">VR Design Document</a>
+            <a href="">VRDD</a>
           </li>
         </ul>
       </div>
