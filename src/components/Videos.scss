@@ -1,0 +1,14 @@
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.videoToggles {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+}

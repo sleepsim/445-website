@@ -1,16 +1,17 @@
 import "./Header.scss";
-import dogImage from "../assets/dog.jpg";
+import Poster from "../assets/poster.png";
 
 export const Header = () => {
   return (
     <>
+      {" "}
+      <div className="mainTitle" id="home">
+        <p>IAT 445 Immersive Environments</p>
+        <h1>Project Title</h1>
+      </div>
       <div className="header">
         {/* Left side */}
         <div className="left">
-          <div className="mainTitle" id="home">
-            <p>IAT 445 Immersive Environments</p>
-            <h1>Project Title</h1>
-          </div>
           <div className="overview">
             <p className="subtitle">Overview</p>
             <p>
@@ -30,10 +31,18 @@ export const Header = () => {
               <li>Rabab Altarazi - Environment Designer & 3D Modeler</li>
             </ul>
           </div>
+          <div id="links">
+            <ul>
+              <li className="subtitle">Links</li>
+              <li>
+                <a href="https://github.com/sleepsim/445-VR-Project">GitHub</a>
+              </li>
+            </ul>
+          </div>
         </div>
         {/* Right Side */}
         <div className="right">
-          <img src={dogImage} alt="" />
+          <img className="poster" src={Poster} alt="Game Poster" />
         </div>
       </div>
     </>

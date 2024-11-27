@@ -1,7 +1,7 @@
 .header {
-  //   max-width: 50vw;
   display: flex;
   flex-direction: row;
+  gap: 10rem;
 }
 .subtitle {
   font-weight: 100;
@@ -17,7 +17,6 @@ ul {
   p {
     margin: 0;
   }
-  margin-bottom: 7rem;
 }
 
 .mainTitle {
@@ -30,8 +29,30 @@ ul {
 
   margin-bottom: 5rem;
 }
-
-.right {
+.left {
+  max-width: 40vw;
   display: flex;
-  // justify-content: center;
+  flex-direction: column; // Ensures children are stacked vertically
+  > * + * {
+    margin-top: 4rem; // Adjust this value for desired spacing
+  }
+}
+.poster {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .left {
+    max-width: 95vw;
+    display: flex;
+    flex-direction: column; // Ensures children are stacked vertically
+    > * + * {
+      margin-top: 2rem; // Adjust this value for desired spacing
+    }
+  }
 }
