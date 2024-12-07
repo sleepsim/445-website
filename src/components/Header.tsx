@@ -7,7 +7,7 @@ export const Header = () => {
       {" "}
       <div className="mainTitle" id="home">
         <p>IAT 445 Immersive Environments</p>
-        <h1>Project Title</h1>
+        <h1>Bearthday Blues</h1>
       </div>
       <div className="header">
         {/* Left side */}
@@ -25,10 +25,10 @@ export const Header = () => {
           <div id="team">
             <ul>
               <li className="subtitle">Team Members</li>
-              <li>Samantha Chung - Project Manager & Developer</li>
-              <li>Megan Yeung - Environment Designer & 3D Modeler</li>
-              <li>Pocholo Andres - Lead Developer</li>
-              <li>Rabab Altarazi - Environment Designer & 3D Modeler</li>
+              <li>Samantha Chung: Project Manager</li>
+              <li>Pocholo Andres: Game Developer/Programmer</li>
+              <li>Megan Yeung: 3D Modeller</li>
+              <li>Rabab Altarazi: 3D Modeller</li>
             </ul>
           </div>
           <div id="links">
@@ -36,6 +36,11 @@ export const Header = () => {
               <li className="subtitle">Links</li>
               <li>
                 <a href="https://github.com/sleepsim/445-VR-Project">GitHub</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/document/d/1juiS8QSPpHxv3FQuL6kv7OwGe1TLXJkwfYngVnLGAFY/edit?tab=t.0">
+                  VRDD.pdf
+                </a>
               </li>
             </ul>
           </div>

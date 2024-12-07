@@ -7,13 +7,13 @@ const Navbar = () => {
         <h2>Navigation</h2>
         <ul>
           <li>
-            <a href="">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="">Team</a>
+            <a href="#videos">Videos</a>
           </li>
           <li>
-            <a href="">VRDD</a>
+            <a href="#VRDD">VRDD</a>
           </li>
         </ul>
       </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Videos.scss";
-import Trailer from "../assets/gamer.mp4";
-import Project from "../assets/gamer2.mp4";
+import Trailer from "../../public/assets/gamer.mp4";
+import Project from "../../public/assets/gamer2.mp4";
 
 export const Videos = () => {
   const [video, setVideo] = useState<string>("trailer"); // Type the state as a string
@@ -12,7 +12,7 @@ export const Videos = () => {
   };
 
   return (
-    <div className="videoContainer">
+    <div id="videos" className="videoContainer">
       {/* Video player */}
       <video controls key={video}>
         {" "}
