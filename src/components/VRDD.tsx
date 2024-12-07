@@ -152,6 +152,7 @@ export const VRDD = () => {
               locomotion system that doesn’t require the user to move, and the
               child in the game is stationary looking over the toys.
             </p>
+            <img src="../../public/assets/room1.png"></img>
             <h4>Locomotion technique </h4>
             <p>
               The main locomotion technique used is the constant speed gliding
@@ -185,6 +186,12 @@ export const VRDD = () => {
             of toys as furniture and scaling them up in comparison to the main
             character.
           </p>
+          <div className="collage">
+            <img src="../../public/assets/inspo1.jpg"></img>
+            <img src="../../public/assets/inspo2.jpg"></img>
+            <img src="../../public/assets/inspo3.jpg"></img>
+            <img src="../../public/assets/inspo4.jpg"></img>
+          </div>
           <h3>Immersion Frameworks</h3>
           <p>
             Especially scale-wise, and in the toy’s maze, the aspect of presence
@@ -244,7 +251,7 @@ export const VRDD = () => {
             finishing it, leaving the player satisfied and wanting more of that
             experience.
           </p>
-          <p>Questions:</p>
+          <h4>Questions:</h4>
           <div className="subsection">
             <ul>
               {" "}
@@ -277,10 +284,7 @@ export const VRDD = () => {
               <li> What do you think about the game overall?</li>
             </ul>
           </div>
-          <p>
-            {" "}
-            <strong>Methods</strong>
-          </p>
+          <h4>Methods</h4>
           <p>
             We will use the think-aloud method, the game will be tested by one
             player at a time, and during the gameplay, we will ask the player
@@ -288,10 +292,7 @@ export const VRDD = () => {
             encouraged to vocalize their actions and thoughts during the game,
             while we take notes.
           </p>
-          <p>
-            {" "}
-            <strong>Results</strong>
-          </p>
+          <h4>Results</h4>
           <p>
             Most players reported feeling uncertain of their goal when they were
             navigating through the maze, although they started figuring it out
@@ -312,10 +313,7 @@ export const VRDD = () => {
             felt immersed as a toy, especially when they saw the Lego toy far
             away and small in the kid’s eyes.
           </p>
-          <p>
-            {" "}
-            <strong>Meta-reflection</strong>
-          </p>
+          <h4>Meta-reflection</h4>
           <p>
             Building on the results we got from the user study, and keeping in
             mind that the game was not fully complete by the time the study
@@ -340,31 +338,44 @@ export const VRDD = () => {
             it adds some challenge.
           </p>
           <h3>Prototyping process</h3>
-          <p>
-            <strong>Initial ideation sketches:</strong>
-          </p>
+          <h4>Initial ideation sketches:</h4>
           <p>
             First, we created rough sketches of the idea of the game and the
             feel and look of the levels and characters.
           </p>
-          <p>
-            <strong>3D objects + programming:</strong>
-          </p>
+          <div className="collage">
+            <img src="../../public/assets/sketch1.jpg"></img>
+            <img src="../../public/assets/sketch2.jpg"></img>
+            <img src="../../public/assets/sketch3.jpg"></img>
+            <img src="../../public/assets/maze.png"></img>
+          </div>
+          <h4>3D objects + programming:</h4>
           <p>
             Then, we created the characters the environment, and puzzle objects
             gradually while using placeholders for the mechanics and programming
             of the game.
           </p>
-          <p>
-            <strong>User Testing:</strong>
-          </p>
+          <div className="collage">
+            <img src="../../public/assets/lego.png"></img>
+            <img src="../../public/assets/child.png"></img>
+            <img src="../../public/assets/dino.png"></img>
+            <img src="../../public/assets/fridge.png"></img>
+            <img src="../../public/assets/kitchen.png"></img>
+            <img src="../../public/assets/cupboard.png"></img>
+            <img src="../../public/assets/oven.png"></img>
+            <img src="../../public/assets/cake.png"></img>
+            <img src="../../public/assets/bear.png"></img>
+          </div>
+          <h4>User Testing:</h4>
           <p>
             We conducted user testing on 3 users during lab hours to figure out
             any bugs to fix before the final showcase
-          </p>{" "}
-          <p>
-            <strong>Fixing Bugs and final prototype:</strong>
           </p>
+          <div className="collage">
+            <img src="../../public/assets/room1.png"></img>
+            <img src="../../public/assets/room2.png"></img>
+          </div>
+          <h4>Fixing Bugs and final prototype:</h4>
           <p>
             After the game mechanics were done, we added all the final designs
             to the final prototype
@@ -447,9 +458,7 @@ export const VRDD = () => {
             interactions, all will be fixed for the final prototype.
           </p>
           <h3>Equipment needs</h3>
-          <p>
-            <strong>Equipment</strong>
-          </p>
+          <h4>Equipment</h4>
           <ul>
             <li>Lego maze with a figure and ping-pong balls</li>
             <li>Hot Wheels car and trains</li>
@@ -459,9 +468,7 @@ export const VRDD = () => {
             <li>Table for the items</li>
             <li>Tablecloth</li>
           </ul>
-          <p>
-            <strong>Roles:</strong>
-          </p>
+          <h4>Roles:</h4>
           <ul>
             <li>
               <strong>Pocholo:</strong> IT

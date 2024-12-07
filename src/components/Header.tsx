@@ -1,5 +1,5 @@
 import "./Header.scss";
-import Poster from "../assets/poster.png";
+import Poster from "../../public/assets/poster.png";
 
 export const Header = () => {
   return (
@@ -40,6 +40,11 @@ export const Header = () => {
               <li>
                 <a href="https://docs.google.com/document/d/1juiS8QSPpHxv3FQuL6kv7OwGe1TLXJkwfYngVnLGAFY/edit?tab=t.0">
                   VRDD.pdf
+                </a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/spreadsheets/d/1RwxVTWjl66oucsV6RifPPBW-4M6pjRFf5nBhir_U9M0/edit?gid=0#gid=0">
+                  Storyboard
                 </a>
               </li>
             </ul>
