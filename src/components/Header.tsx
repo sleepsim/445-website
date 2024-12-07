@@ -47,6 +47,11 @@ export const Header = () => {
                   Storyboard
                 </a>
               </li>
+              <li>
+                <a href="https://docs.google.com/document/d/1x7N8JiVoNKUofSi5DwNY9YOsGt8TdY8vaTxdlyzDX5s/edit?tab=t.0">
+                  User Study
+                </a>
+              </li>
             </ul>
           </div>
         </div>

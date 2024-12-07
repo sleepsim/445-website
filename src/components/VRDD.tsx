@@ -340,7 +340,7 @@ export const VRDD = () => {
             kid’s perspective, however, we might keep the colorful floor because
             it adds some challenge.
           </p>
-          <h3>Prototyping process</h3>
+          <h2>Prototyping process</h2>
           <h4>Initial ideation sketches:</h4>
           <p>
             First, we created rough sketches of the idea of the game and the
@@ -374,15 +374,17 @@ export const VRDD = () => {
             We conducted user testing on 3 users during lab hours to figure out
             any bugs to fix before the final showcase
           </p>
-          <div className="collage">
-            <img src="../../public/assets/room1.png"></img>
-            <img src="../../public/assets/room2.png"></img>
-          </div>
+          <img src="../../public/assets/user2.png"></img>
+          <img src="../../public/assets/user.jpg"></img>{" "}
           <h4>Fixing Bugs and final prototype:</h4>
           <p>
             After the game mechanics were done, we added all the final designs
             to the final prototype
           </p>
+          <div className="collage">
+            <img src="../../public/assets/room1.png"></img>
+            <img src="../../public/assets/room2.png"></img>
+          </div>
           <h3>Development Process</h3>
           <p>
             Inspired by games like “It Takes Two” and movies like “Toy Story”,
@@ -398,6 +400,10 @@ export const VRDD = () => {
             having to feed an angry bear as a final goal to be able to complete
             the puzzles and be free.
           </p>{" "}
+          <div className="collage">
+            <img src="../../public/assets/jam1.png"></img>
+            <img src="../../public/assets/jam2.png"></img>
+          </div>
           <p>
             {" "}
             To create the maze, we used a generated maze design through a maze
@@ -496,6 +502,13 @@ export const VRDD = () => {
           Images and sketches have already been included in their corresponding
           sections
         </p>
+        <div className="collage">
+          <img src="../../public/assets/kid.png"></img>
+          <img src="../../public/assets/bear_sticker.png"></img>
+          <img src="../../public/assets/lego_sticker.png"></img>
+          <img src="../../public/assets/cat1.png"></img>
+          <img src="../../public/assets/cat2.png"></img>
+        </div>
       </section>
     </>
   );
