@@ -123,6 +123,9 @@ export const VRDD = () => {
             is happy and the toy is free!
           </p>
           <h3>Storyboard</h3>
+          <img src="../../public/assets/sb1.png"></img>
+          <img src="../../public/assets/sb2.png"></img>
+          <img src="../../public/assets/sb3.png"></img>
           <h3>VR mechanics & Physical Rig</h3>
           <div className="subsection">
             <h4>Core mechanics </h4>
