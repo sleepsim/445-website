@@ -189,7 +189,7 @@ export const VRDD = () => {
             of toys as furniture and scaling them up in comparison to the main
             character.
           </p>
-          <div className="collage">
+          <div className="collage collage2">
             <img src="../../public/assets/inspo1.jpg"></img>
             <img src="../../public/assets/inspo2.jpg"></img>
             <img src="../../public/assets/inspo3.jpg"></img>
@@ -346,7 +346,7 @@ export const VRDD = () => {
             First, we created rough sketches of the idea of the game and the
             feel and look of the levels and characters.
           </p>
-          <div className="collage">
+          <div className="collage collage2">
             <img src="../../public/assets/sketch1.jpg"></img>
             <img src="../../public/assets/sketch2.jpg"></img>
             <img src="../../public/assets/sketch3.jpg"></img>
@@ -358,7 +358,7 @@ export const VRDD = () => {
             gradually while using placeholders for the mechanics and programming
             of the game.
           </p>
-          <div className="collage">
+          <div className="collage collage3">
             <img src="../../public/assets/lego.png"></img>
             <img src="../../public/assets/child.png"></img>
             <img src="../../public/assets/dino.png"></img>
@@ -381,7 +381,7 @@ export const VRDD = () => {
             After the game mechanics were done, we added all the final designs
             to the final prototype
           </p>
-          <div className="collage">
+          <div className="collage collage2">
             <img src="../../public/assets/room1.png"></img>
             <img src="../../public/assets/room2.png"></img>
           </div>
@@ -400,7 +400,7 @@ export const VRDD = () => {
             having to feed an angry bear as a final goal to be able to complete
             the puzzles and be free.
           </p>{" "}
-          <div className="collage">
+          <div className="collage collage2">
             <img src="../../public/assets/jam1.png"></img>
             <img src="../../public/assets/jam2.png"></img>
           </div>
@@ -502,7 +502,7 @@ export const VRDD = () => {
           Images and sketches have already been included in their corresponding
           sections
         </p>
-        <div className="collage">
+        <div className="collage collage3">
           <img src="../../public/assets/kid.png"></img>
           <img src="../../public/assets/bear_sticker.png"></img>
           <img src="../../public/assets/lego_sticker.png"></img>
