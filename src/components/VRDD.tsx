@@ -96,19 +96,18 @@ export const VRDD = () => {
         </section>
         <section>
           <h2>Introduction</h2>
-          <ul>
-            <li>
-              The goal of the game is to provide the user with different
-              experiences depending on the scale of their character.{" "}
-            </li>{" "}
-            <li>
-              As a child, you are simply using your imagination to play a game.
-            </li>
-            <li>
-              As the toy, it feels personal as the child's storyline is your
-              reality.
-            </li>
-          </ul>
+          <p>
+            Our VR game offers a unique experience by allowing players to switch
+            between the perspectives of a child and their toy. The objective is
+            to solve collaborative puzzles, with each character’s scale
+            providing distinct gameplay dynamics. As the child, players engage
+            imaginatively, creating challenges within a playful narrative. As
+            the toy, players navigate these challenges as their reality,
+            emphasizing personal stakes and immersive problem-solving. This dual
+            perspective highlights the contrast between imagination and lived
+            experience, creating a rich and engaging adventure where scale
+            transforms the player's interaction with the world.
+          </p>
           <h3>Narrative/Story </h3>
           <p>
             The game starts with the kid characters picking up a Lego toy to
@@ -122,11 +121,33 @@ export const VRDD = () => {
             ingredients. Once the player bakes, and delivers the cake, the bear
             is happy and the toy is free!
           </p>
+          <div className="collage collage2">
+            <img src="../../public/assets/inspo1.jpg"></img>
+            <img src="../../public/assets/inspo2.jpg"></img>
+            <img src="../../public/assets/inspo3.jpg"></img>
+            <img src="../../public/assets/inspo4.jpg"></img>
+          </div>
           <h3>Storyboard</h3>
           <img src="../../public/assets/sb1.png"></img>
           <img src="../../public/assets/sb2.png"></img>
           <img src="../../public/assets/sb3.png"></img>
           <h3>VR mechanics & Physical Rig</h3>
+          <p>
+            The Player will use the Oculus controllers to interact with the
+            games. Instructions on how to play the game will presented to them
+            before the game starts. The style of the GUI reflects children’s
+            drawings to further emphasize the setting and story of the game. The
+            Player should feel the shift between the 2 perspectives and feel a
+            part of the maze when they are small through the decor, scale, and
+            story. After completing the game, they will have gained insight to
+            what it is like to experience something from multiple perspectives.
+          </p>
+          <div className="collage collage2">
+            <img src="../../public/assets/inspo1.jpg"></img>
+            <img src="../../public/assets/inspo2.jpg"></img>
+            <img src="../../public/assets/inspo3.jpg"></img>
+            <img src="../../public/assets/inspo4.jpg"></img>
+          </div>
           <div className="subsection">
             <h4>Core mechanics </h4>
             <p>
@@ -147,13 +168,57 @@ export const VRDD = () => {
               the game doesn’t need a big space for the player to physically
               walk around in.
             </p>
+            <div className="collage collage2">
+              <img src="../../public/assets/inspo1.jpg"></img>
+              <img src="../../public/assets/inspo2.jpg"></img>
+              <img src="../../public/assets/inspo3.jpg"></img>
+              <img src="../../public/assets/inspo4.jpg"></img>
+            </div>
             <h4>Envisioned physical setup </h4>
+            <div className="collage collage2">
+              <img src="../../public/assets/inspo1.jpg"></img>
+              <img src="../../public/assets/inspo2.jpg"></img>
+              <img src="../../public/assets/inspo3.jpg"></img>
+              <img src="../../public/assets/inspo4.jpg"></img>
+            </div>
             <p>
-              The game will be set inside a child’s room and the player
-              dynamically changes between the child and its toy. In person, the
-              player does not have to move because the toy has a built in
-              locomotion system that doesn’t require the user to move, and the
-              child in the game is stationary looking over the toys.
+              <strong>Physical Setup and Pre/Post-VR Experience </strong>
+              <br /> Since our game does not require physical movement, the
+              player’s physical setup can be flexible. Ideally, we recommend
+              that the player sits comfortably in a clear area to avoid
+              collisions with objects in their environment. The game can be
+              played either while seated or standing, but neither is required
+              for the experience. This flexibility ensures that players can
+              enjoy the experience without worrying about physical constraints.
+            </p>
+            <p>
+              The game is set inside a child’s room, with the player dynamically
+              switching between the perspectives of a child and a toy. The toy
+              character uses a built-in locomotion system that allows players to
+              move around the maze without requiring physical movement, which
+              makes it suitable for limited physical space. The child character
+              remains stationary in the game, observing the toy from above, and
+              the player controls them through teleportation.
+            </p>
+            <p>
+              <strong>Additional Stimulation and User Interaction </strong>
+              <br /> Beyond the visual and auditory elements in the game, we
+              envision no additional physical stimulation (such as wind, touch,
+              or temperature) for this project. The focus is on creating an
+              engaging and immersive VR experience through the dual perspectives
+              and interactive puzzle-solving mechanics. However, in a more
+              advanced setup, integrating haptic feedback could enhance the
+              tactile experience of interacting with objects.
+            </p>
+            <p>
+              <strong>HMD-based vs. Screen-based Experience </strong>
+              <br /> to switch between the toy and the child’s viewpoints
+              seamlessly. In a screen-based version, this immersive experience
+              would be significantly reduced, as the player would lack the
+              ability to physically move through the space and switch
+              perspectives as naturally. The HMD-based version allows for
+              greater immersion by using the player's head movement and
+              controllers to interact with the environment.
             </p>
             <img src="../../public/assets/room1.png"></img>
             <h4>Locomotion technique </h4>
@@ -169,6 +234,40 @@ export const VRDD = () => {
               with certain objects and fulfill their role as “eyes” on the map.
               Additionally, we kept the built-in snap turn to help players
               change views quickly.
+            </p>
+            <p>
+              The two techniques: constant-speed gliding for the toy and
+              teleportation for the child, supplemented by a built-in snap-turn
+              system.
+            </p>
+            <p>
+              <strong>Constant-Speed Gliding (Toy)</strong>
+              <br />
+              Pros: Provides smooth, intuitive movement through the maze,
+              enhancing immersion. It aligns with the toy's limited
+              capabilities, supporting the narrative of a small figure ons:
+              Restricted movement may feel less engaging for some players.
+              navigating a vast environment. <br />
+              Cons: May require fine-tuning to ons: Restricted movement may feel
+              less engaging for some players. prevent motion sickness in some
+              players. <br />
+              Support for Experience: Gliding reinforces the feeling of being
+              small and constrained, immersing players in the toy's perspective
+              and challenges.
+            </p>
+            <p>
+              <strong>Teleportation (Child) </strong>
+              <br />
+              Pros: Simplifies navigation, reduces motion sickness risk, and
+              limits the child's role to observation and interaction, aligning
+              with their function as ons: Restricted movement may feel less
+              engaging for some players. "eyes" in the game. <br />
+              Cons: Restricted ons: Restricted movement may feel less engaging
+              for some players. movement may feel less engaging for some
+              players.
+              <br /> Support for Experience: Encourages strategic planning and
+              collaboration by offering a bird’s-eye view and the ability to
+              assist the toy.
             </p>
           </div>
           <h3>Inspiration Analysis</h3>
@@ -433,7 +532,20 @@ export const VRDD = () => {
             intuitive. Next, we started preparing for the final showcase,
             including poster, trailer, and showcase day setup.
           </p>{" "}
-          <p>During the showcase, (complete after the showcase)</p>
+          <p>
+            During the showcase, we included toys as props to support the story
+            of the game. Before Players began, we walked them through our
+            intention, concept, and story to provide an idea of what they should
+            expect and complete within the game. We encouraged Players to begin
+            exploring the game before asking for help in order to further
+            understand where we can improve affordances and allow them to adjust
+            to the new settings and controls. When needed, the Player can ask
+            for hints on how to solve the next puzzle. We wanted the Players to
+            grasp the game on their own to fully understand the mechanics we
+            implement to further drive the concept of switching perspectives. We
+            also encouraged thinking aloud so we can understand how to help them
+            when needed.
+          </p>
           <h3>Critique</h3>
           <p>
             The first feedback we got was regarding our idea of character
@@ -493,6 +605,210 @@ export const VRDD = () => {
             </li>
           </ul>
           <h3>Technical Documentation</h3>
+          <div>
+            <h4>Links</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/sleepsim/445-VR-Project/tree/main"
+                  target="_blank"
+                >
+                  GitHub Repository
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://1sfu-my.sharepoint.com/:f:/r/personal/mpy_sfu_ca/Documents/IAT445?csf=1&web=1&e=7U3VOo"
+                  target="_blank"
+                >
+                  Storage Drive
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/drive/folders/1HES2_55GwFd_7T7gpJel9gZispqvVRLA?usp=sharing"
+                  target="_blank"
+                >
+                  Out-Sourced Audios
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Architecture</h3>
+            <img src="../../public/assets/dino.png"></img>
+            <h3>Plugins</h3>
+            <ul>
+              <li>XR Interaction Toolkit</li>
+              <li>Post Processing</li>
+              <li>ProBuilder</li>
+              <li>Oculus and Open XR Plugin</li>
+              <li>XR Hands</li>
+              <li>XR Core Utilities</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Models</h3>
+            <p>
+              Drawn from previous academic projects by teammates and new models
+              made for the game.
+            </p>
+          </div>
+          <div>
+            <h3>Scripts</h3>
+            <p>The following scripts are used in the project:</p>
+            <ul>
+              <li>
+                <b>BallColourReveal</b>: Changes ball color when the player
+                approaches.
+              </li>
+              <li>
+                <b>Camera Switch</b>: Switches cameras to alternate heights.
+              </li>
+              <li>
+                <b>GlobalVariables</b>: Stores progression checks.
+              </li>
+              <li>
+                <b>OvenBaking</b>: Ensures ingredients collide with the oven to
+                bake a cake.
+              </li>
+              <li>
+                <b>BakeButton</b>: Animates the button being pressed and signals
+                if ingredients are there.
+              </li>
+              <li>
+                <b>PlayerMovement</b>: Moves player using "WASD" keys.
+              </li>
+              <li>
+                <b>PressureSwitch</b>: Checks if the correct ball collides with
+                the correct switch to animate a trigger.
+              </li>
+              <li>
+                <b>Value</b>: Reveals the value correlated with the switch if it
+                is unlocked.
+              </li>
+              <li>
+                <b>BearFSM</b>: Uses a finite state machine (FSM) to make the
+                bear patrol an area and approach the player if within range.
+              </li>
+              <li>
+                <b>BallPlaceholder</b>: Snaps a "fake" placeholder ball to the
+                player's controller for correct scaling and visualization.
+              </li>
+              <li>
+                <b>CakeScript</b>: Detects when the player gives the cake to the
+                bear through proximity and ends the game.
+              </li>
+              <li>
+                <b>CameraPriorityController</b>: Controls the priority of active
+                cameras.
+              </li>
+              <li>
+                <b>DoorButton</b>: Buttons in front of the kitchen door that
+                locks the player out.
+              </li>
+              <li>
+                <b>DoorScript</b>: Opens the door when the player approaches it.
+              </li>
+              <li>
+                <b>Flashlight</b>: Emits a spotlight controlled by the
+                character.
+              </li>
+              <li>
+                <b>HUDScript</b>: Displays dialogue boxes over characters.
+              </li>
+              <li>
+                <b>UIButton</b>: Handles interaction for UI buttons (main menu,
+                intro/outro).
+              </li>
+              <li>
+                <b>BakeButton</b>: Checks if all items are present and controls
+                the bake button's behavior (hides ingredients, activates the
+                final gate, etc.).
+              </li>
+              <li>
+                <b>CakeAlt</b>: Alternate version of the cake that attaches to
+                the player's hand for ease of use.
+              </li>
+              <li>
+                <b>CollisionDebugger</b>: Simple script for debugging
+                collisions.
+              </li>
+              <li>
+                <b>MainMenuUI</b>: Modified version of UIButton for use in the
+                main menu and end screen.
+              </li>
+              <li>
+                <b>RevolveCanvas</b>: Keeps the canvas at a specific distance
+                and adjusts its position to follow the user's view.
+              </li>
+              <li>
+                <b>TestInteractObject</b>: Handles interaction for raycast and
+                clickable objects such as balls and pressure plates.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Problems and Solutions</h3>
+            <ul className="problem">
+              <li>
+                <b>Problem:</b> Cake would disappear while carrying it back to
+                the bear since users need to switch to child view, and the toy
+                XR Rig would despawn, causing the cake to fall on the ground.
+                <br />
+                <b>Solution:</b> Hide the cake so it doesn't need to be carried.
+                Have a cake pre-attached to the player's controller and show it
+                when the player picks it up. Change collision detection from
+                cake/bear to bear/player to avoid bringing the cake physically.
+              </li>
+              <li>
+                <b>Problem:</b> Manually dragging balls to the pressure sensors
+                is hard and very clunky.
+                <br />
+                <b>Solution:</b> Modify the interaction so that balls attach to
+                the controller and click to place on pressure plates.
+              </li>
+              <li>
+                <b>Problem:</b> Balls attached to the controller were too large
+                (XR Rigs for the toy and child are the same size, but the child
+                is in a top-down view).
+                <br />
+                <b>Solution:</b> Use a placeholder ball that matches the
+                controller's scale. Change its color to the current grabbed
+                ball. Hide the real ball and position it behind the player.
+              </li>
+              <li>
+                <b>Problem:</b> Teleport anchors teleported the wrong XR Rig.
+                <br />
+                <b>Solution:</b> Ensure only one XR Rig is enabled when starting
+                a scene, making it the one used by the XR Interaction Manager
+                for teleportation.
+              </li>
+              <li>
+                <b>Problem:</b> Canvas as a screen-space overlay caused motion
+                sickness and made reading canvases difficult.
+                <br />
+                <b>Solution:</b> Create a script that positions the canvas at a
+                fixed developer-defined distance. Ensure the canvas follows the
+                user's view, adjusting left and right as necessary.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>GitHub</h3>
+            <p>
+              <a
+                href="https://github.com/sleepsim/445-VR-Project"
+                target="_blank"
+              >
+                GitHub - sleepsim/445-VR-Project
+              </a>
+            </p>
+          </div>
+          <div>
+            <h3>Executable</h3>
+            <p>Executable and Playthrough available in the repository.</p>
+          </div>
         </section>{" "}
       </div>
 

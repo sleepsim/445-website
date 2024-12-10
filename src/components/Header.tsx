@@ -52,6 +52,11 @@ export const Header = () => {
                   User Study
                 </a>
               </li>
+              <li>
+                <a href="https://1sfu-my.sharepoint.com/:f:/g/personal/mpy_sfu_ca/EgXYdnb6TjpAseIkTyhoVbEBTL31yOSkxPVzpQ4ZC4lAnw?e=if5nXhR">
+                  Final Deliverables
+                </a>
+              </li>
             </ul>
           </div>
         </div>

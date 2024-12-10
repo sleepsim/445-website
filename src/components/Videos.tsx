@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Videos.scss";
-import Trailer from "../../public/assets/gamer.mp4";
-import Project from "../../public/assets/gamer2.mp4";
+import Trailer from "../../public/assets/vids/trailer.mp4";
+import Project from "../../public/assets/vids/gamer2.mp4";
 
 export const Videos = () => {
   const [video, setVideo] = useState<string>("trailer"); // Type the state as a string
