@@ -42,3 +42,9 @@
 .read-the-docs {
   color: #888;
 }
+
+@media (max-width: 1064px) {
+  #root {
+    margin: 0;
+  }
+}

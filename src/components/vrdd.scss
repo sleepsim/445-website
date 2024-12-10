@@ -44,3 +44,30 @@ img {
     object-fit: cover;
   }
 }
+.hidden {
+  opacity: 0;
+}
+.hidden:hover {
+  opacity: 100;
+}
+@media (max-width: 1064px) {
+  #root {
+    margin: 0;
+  }
+  .collage2 {
+    grid-template-columns: 1fr;
+  }
+  .collage3 {
+    grid-template-columns: 1fr;
+  }
+  .collage {
+    display: block;
+
+    gap: 0rem;
+    margin-bottom: 0rem;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

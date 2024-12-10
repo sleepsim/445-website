@@ -121,11 +121,13 @@ export const VRDD = () => {
             ingredients. Once the player bakes, and delivers the cake, the bear
             is happy and the toy is free!
           </p>
-          <div className="collage collage2">
-            <img src="../../public/assets/inspo1.jpg"></img>
-            <img src="../../public/assets/inspo2.jpg"></img>
-            <img src="../../public/assets/inspo3.jpg"></img>
-            <img src="../../public/assets/inspo4.jpg"></img>
+          <div className="collage collage3">
+            <img src="../../public/assets/ui/2.png"></img>
+            <img src="../../public/assets/ui/bearcake.png"></img>
+            <img src="../../public/assets/ui/cakehowto.png"></img>
+          </div>{" "}
+          <div className="collage collage3">
+            <img src="../../public/assets/ui/xy.png"></img>{" "}
           </div>
           <h3>Storyboard</h3>
           <img src="../../public/assets/sb1.png"></img>
@@ -142,11 +144,13 @@ export const VRDD = () => {
             story. After completing the game, they will have gained insight to
             what it is like to experience something from multiple perspectives.
           </p>
-          <div className="collage collage2">
-            <img src="../../public/assets/inspo1.jpg"></img>
-            <img src="../../public/assets/inspo2.jpg"></img>
-            <img src="../../public/assets/inspo3.jpg"></img>
-            <img src="../../public/assets/inspo4.jpg"></img>
+          <div className="collage collage3">
+            <img src="../../public/assets/ui/guide1.png"></img>
+            <img src="../../public/assets/ui/guide2.png"></img>
+            <img src="../../public/assets/ui/guide3.png"></img>
+            <img src="../../public/assets/ui/guide4.png"></img>
+            <img src="../../public/assets/ui/guide5.png"></img>
+            <img src="../../public/assets/ui/guide6.png"></img>
           </div>
           <div className="subsection">
             <h4>Core mechanics </h4>
@@ -168,19 +172,19 @@ export const VRDD = () => {
               the game doesn’t need a big space for the player to physically
               walk around in.
             </p>
-            <div className="collage collage2">
-              <img src="../../public/assets/inspo1.jpg"></img>
-              <img src="../../public/assets/inspo2.jpg"></img>
-              <img src="../../public/assets/inspo3.jpg"></img>
-              <img src="../../public/assets/inspo4.jpg"></img>
+            <div className="collage collage3">
+              <img src="../../public/assets/storyboard/storyboard_step1.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step3.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step5.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step7.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step9.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step10.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step11.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step14.png"></img>
+              <img src="../../public/assets/storyboard/storyboard_step13.png"></img>
             </div>
             <h4>Envisioned physical setup </h4>
-            <div className="collage collage2">
-              <img src="../../public/assets/inspo1.jpg"></img>
-              <img src="../../public/assets/inspo2.jpg"></img>
-              <img src="../../public/assets/inspo3.jpg"></img>
-              <img src="../../public/assets/inspo4.jpg"></img>
-            </div>
+
             <p>
               <strong>Physical Setup and Pre/Post-VR Experience </strong>
               <br /> Since our game does not require physical movement, the
@@ -474,7 +478,7 @@ export const VRDD = () => {
             any bugs to fix before the final showcase
           </p>
           <img src="../../public/assets/user2.png"></img>
-          <img src="../../public/assets/user.jpg"></img>{" "}
+          <img src="../../public/assets/user.jpg"></img>
           <h4>Fixing Bugs and final prototype:</h4>
           <p>
             After the game mechanics were done, we added all the final designs
@@ -636,7 +640,7 @@ export const VRDD = () => {
           </div>
           <div>
             <h3>Architecture</h3>
-            <img src="../../public/assets/dino.png"></img>
+            <img src="../../public/assets/architecture.png"></img>
             <h3>Plugins</h3>
             <ul>
               <li>XR Interaction Toolkit</li>
@@ -824,6 +828,9 @@ export const VRDD = () => {
           <img src="../../public/assets/lego_sticker.png"></img>
           <img src="../../public/assets/cat1.png"></img>
           <img src="../../public/assets/cat2.png"></img>
+        </div>
+        <div className="hidden">
+          <img src="../../public/assets/gang.webp"></img>
         </div>
       </section>
     </>
