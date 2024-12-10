@@ -148,9 +148,6 @@ export const VRDD = () => {
             <img src="../../public/assets/ui/guide1.png"></img>
             <img src="../../public/assets/ui/guide2.png"></img>
             <img src="../../public/assets/ui/guide3.png"></img>
-            <img src="../../public/assets/ui/guide4.png"></img>
-            <img src="../../public/assets/ui/guide5.png"></img>
-            <img src="../../public/assets/ui/guide6.png"></img>
           </div>
           <div className="subsection">
             <h4>Core mechanics </h4>
@@ -832,6 +829,11 @@ export const VRDD = () => {
           <img src="../../public/assets/lego_sticker.png"></img>
           <img src="../../public/assets/cat1.png"></img>
           <img src="../../public/assets/cat2.png"></img>
+        </div>
+        <div className="collage collage3">
+          <img src="../../public/assets/ui/guide4.png"></img>
+          <img src="../../public/assets/ui/guide5.png"></img>
+          <img src="../../public/assets/ui/guide6.png"></img>
         </div>
         <div className="hidden">
           <img src="../../public/assets/gang.webp"></img>
