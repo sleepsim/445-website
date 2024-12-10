@@ -14,12 +14,14 @@ export const Header = () => {
         <div className="left">
           <div className="overview">
             <p className="subtitle">Overview</p>
+            <p>Step into their world!</p>
             <p>
-              wait a minute chat is this real edgin cuz im a sigma lil bro lock
-              in got me rizzmaxing oh my gyatt so opium youre my mod meow for
-              some nitro sussy impostor caught you ventin what the sigma i just
-              my edging streak this time ill edge you you you like were
-              mewmaxxing you you you you you anita maxwin edge edge edge edge
+              Bearthday Blues is a game that puts you in the shoes of a child
+              and their toys. Experience both perspectives as the child
+              controlling the environment and as a toy experiencing the changes
+              in the environment as your own reality. Traverse through a dynamic
+              environment filled with toys and make your way through obstacles
+              by manipulating objects
             </p>
           </div>
           <div id="team">

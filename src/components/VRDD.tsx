@@ -477,8 +477,12 @@ export const VRDD = () => {
             We conducted user testing on 3 users during lab hours to figure out
             any bugs to fix before the final showcase
           </p>
-          <img src="../../public/assets/user2.png"></img>
-          <img src="../../public/assets/user.jpg"></img>
+          <div className="collage collage2">
+            <img src="../../public/assets/user2.png"></img>
+          </div>{" "}
+          <div className="collage collage2">
+            <img src="../../public/assets/user.jpg"></img>
+          </div>
           <h4>Fixing Bugs and final prototype:</h4>
           <p>
             After the game mechanics were done, we added all the final designs
