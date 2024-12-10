@@ -27,10 +27,10 @@ export const Header = () => {
           <div id="team">
             <ul>
               <li className="subtitle">Team Members</li>
-              <li>Samantha Chung: Project Manager</li>
-              <li>Pocholo Andres: Game Developer/Programmer</li>
-              <li>Megan Yeung: 3D Modeller</li>
-              <li>Rabab Altarazi: 3D Modeller</li>
+              <li>Samantha Chung: Project Manager, Developer</li>
+              <li>Pocholo Andres: Main Game Developer</li>
+              <li>Megan Yeung: 3D Modeller, Designer</li>
+              <li>Rabab Altarazi: 3D Modeller, Designer</li>
             </ul>
           </div>
           <div id="links">
